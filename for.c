@@ -10,7 +10,7 @@ int main() {
 	
 	/* Comando for em bloco */
 	printf("For em bloco \n");
-	for(iCount; iCount>=1; iCount=iCount-1){
+	for(iCount=100; iCount>=1; iCount=iCount-1){
 		printf("%d \n",iCount);
 	}
 	
@@ -19,10 +19,10 @@ int main() {
 	/* for com string */
 	for (i=0; string[i] != '\0'; i=i+1) {
 		/* Verifica quantas letras a tem na string */
-		if(string[i]=='a'){
+		if(string[i]=='o'){
 			iString = iString + 1;
 		}
 	}
 	
-	printf("\n A frase escolhida foi:'%s' que contém: %d letras 'a'", string, iString);
+	printf("\n A frase escolhida foi:'%s' que contém: %d letras 'o'", string, iString);
 }
